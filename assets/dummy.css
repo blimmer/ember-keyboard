@@ -1,0 +1,85 @@
+body, input {
+  background-color: #FFF;
+  color: #00585F;
+  font-size: 1vw;
+  line-height: 2vw;
+}
+
+input {
+  padding: 0 0.5vw;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  width: 60vw;
+}
+
+.keyboard-widget {
+  border: thin solid #00585F;
+  margin: 2vw 0;
+  padding: 1vw;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.keyboard-widget:hover {
+  color: #FFFCC4;
+  background-color: #00585F;
+}
+
+.keyboard-widget.active {
+  color: #FFFCC4;
+  background-color: #00585F;
+}
+
+.counter-container {
+  color: #00585F;
+  background-color: #F0EDBB;
+  border: thin solid #00585F;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+  text-align: center;
+  width: 33%;
+}
+
+.counter-container .input-field {
+  background-color: #FFFCC4;
+  border: thin solid #00585F;
+  border-top: 0;
+  color: #00585F;
+  text-align: center;
+  width: 20%;
+}
+
+.octocat {
+  height: 2vw;
+  width: 2vw;
+}
+
+.github {
+  left: 83vw;
+  position: fixed;
+  text-align: right;
+  top: 1vw;
+}
+
+.ember-expanding-sidebar {
+  border-right: thick dashed #00585F;
+  height: 100vh;
+  left: 0;
+  list-style-type: none;
+  padding: 0;
+  padding-right: 1.5vw;
+  position: fixed;
+  text-align: right;
+  top: 0;
+  width: 15vw;
+}
+
+.ember-expanding-sidebar-section a {
+  color: #00585F;
+  cursor: pointer;
+  text-decoration: none;
+}
