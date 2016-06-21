@@ -1235,7 +1235,7 @@ define("dummy/templates/application", ["exports"], function (exports) {
         var el3 = dom.createTextNode("\n    ");
         dom.appendChild(el2, el3);
         var el3 = dom.createElement("img");
-        dom.setAttribute(el3, "src", "/octocat.png");
+        dom.setAttribute(el3, "src", "./octocat.png");
         dom.setAttribute(el3, "class", "octocat");
         dom.appendChild(el2, el3);
         var el3 = dom.createTextNode("\n  ");
@@ -4185,7 +4185,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("dummy/app")["default"].create({"name":"ember-keyboard","version":"2.0.0-beta1+07a1fa88"});
+  require("dummy/app")["default"].create({"name":"ember-keyboard","version":"2.0.0-beta1+0148d501"});
 }
 
 /* jshint ignore:end */
