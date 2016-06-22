@@ -4185,7 +4185,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("dummy/app")["default"].create({"name":"ember-keyboard","version":"2.0.0-beta1+0148d501"});
+  require("dummy/app")["default"].create({"name":"ember-keyboard","version":"2.0.0-beta1+317a9ac0"});
 }
 
 /* jshint ignore:end */
